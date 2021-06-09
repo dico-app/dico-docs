@@ -16,7 +16,7 @@ To discover what's new on this package check out [the changelog][changelog]. For
 <!-- Links -->
 
 [dico]: https://dico.app
-[dico-docs]: https://docs.dico.io
+[dico-docs]: https://docs.dico.app
 [changelog]: /CHANGELOG.md
 
 <!-- Badges -->
