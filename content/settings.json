@@ -15,7 +15,6 @@
   "github": {
 		"repo": "dico-app/dico-docs",
 		"branch": "master",
-		"dir": "docs",
 		"releases": false
 	},
   "colors": {
