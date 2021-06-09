@@ -1,0 +1,25 @@
+{
+  "title": "Docs — Dico.app",
+  "description": "Dico.app Documentation, your static content made dynamic, easily!",
+  "url": "https://docs.dico.app",
+  "layout": "docs",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "header": {
+    "logo": true,
+    "title": false
+  },
+  "twitter": "@dico_app",
+  "github": {
+		"repo": "dico-app/dico-docs",
+		"branch": "master",
+		"dir": "docs",
+		"releases": false
+	},
+  "colors": {
+    "primary": "#6284ff"
+  },
+  "credits": false
+}

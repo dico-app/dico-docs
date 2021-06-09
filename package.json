@@ -1,0 +1,54 @@
+{
+	"name": "@dico/dico-docs",
+	"version": "0.0.0",
+	"description": "Dico.app Documentation",
+	"private": true,
+	"license": "MIT",
+	"author": "Lucie Haberer <hello@lihbr.com> (https://lihbr.com)",
+	"scripts": {
+		"dev": "nuxt",
+		"generate": "nuxt generate",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"release": "yarn test && standard-version && git push --follow-tags",
+		"release:dry": "yarn test && standard-version --dry-run",
+		"lint": "eslint --ext .js,.ts .",
+		"test": "yarn lint"
+	},
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "ssh://git@github.com/dico-app/dico-docs.git"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "yarn lint",
+			"commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
+		}
+	},
+	"dependencies": {
+		"@fontsource/inconsolata": "4.4.5",
+		"@fontsource/inter": "4.4.5",
+		"@fontsource/manrope": "4.4.5",
+		"core-js": "3.14.0",
+		"docus": "0.1.5",
+		"nuxt": "2.15.6",
+		"vue-gtag": "1.16.1"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "12.1.4",
+		"@commitlint/config-conventional": "12.1.4",
+		"babel-eslint": "10.1.0",
+		"eslint": "7.28.0",
+		"eslint-config-prettier": "8.3.0",
+		"eslint-plugin-prettier": "3.4.0",
+		"eslint-plugin-vue": "7.10.0",
+		"husky": "4.3.8",
+		"nuxt-vite": "0.0.37",
+		"prettier": "2.3.1",
+		"standard-version": "9.3.0",
+		"vue-template-compiler": "2.6.14"
+	}
+}
