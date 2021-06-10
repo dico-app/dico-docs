@@ -4,7 +4,6 @@
 			<pre
 				class="language-bash line-numbers"
 			><code>dico login {{token}}</code></pre>
-			<d-copy-button />
 		</div>
 	</div>
 </template>
