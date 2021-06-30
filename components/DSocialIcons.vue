@@ -84,4 +84,8 @@ body .sticky .flex .xl\:w-64 {
 		width: 100% !important;
 	}
 }
+
+.prose pre {
+	color: #e7e9ee;
+}
 </style>
